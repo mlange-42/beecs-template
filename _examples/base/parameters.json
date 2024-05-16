@@ -1,0 +1,12 @@
+{
+    "Parameters": {
+        "Termination": {
+            "MaxTicks": 365
+        }
+    },
+    "Custom": {
+        "params.TestParams": {
+            "TestValue": 100
+        }
+    }
+}
