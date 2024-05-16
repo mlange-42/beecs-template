@@ -2,7 +2,10 @@ module github.com/mlange-42/beecs-template
 
 go 1.22.0
 
-require github.com/mlange-42/beecs-cli v0.1.1-0.20240516133644-13813dfbc3fb
+require (
+	github.com/mlange-42/arche v0.12.1-0.20240516105122-6799138aa690
+	github.com/mlange-42/beecs-cli v0.1.1-0.20240516133644-13813dfbc3fb
+)
 
 require (
 	git.sr.ht/~sbinet/gg v0.5.0 // indirect
@@ -22,7 +25,6 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mazznoer/colorgrad v0.9.1 // indirect
 	github.com/mazznoer/csscolorparser v0.1.2 // indirect
-	github.com/mlange-42/arche v0.12.1-0.20240516105122-6799138aa690 // indirect
 	github.com/mlange-42/arche-model v0.8.1 // indirect
 	github.com/mlange-42/arche-pixel v0.9.0 // indirect
 	github.com/mlange-42/beecs v0.1.1-0.20240516122633-ed01e9711a10 // indirect
