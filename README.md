@@ -14,3 +14,10 @@ go run . -d _examples/base --observers --systems
 
 Take a look at file [`main.go`](https://github.com/mlange-42/beecs-template/blob/main/main.go)
 to get an idea how it works.
+
+## Dependencies on Linux systems
+
+As [beecs-cli](https://github.com/mlange-42/beecs-cli) provides live plotting using OpenGL, the dependencies of [go-gl/gl](https://github.com/go-gl/gl) and [go-gl/glfw](https://github.com/go-gl/glfw) apply. For Ubuntu/Debian-based systems, these are:
+
+- `libgl1-mesa-dev`
+- `xorg-dev`
