@@ -1,5 +1,5 @@
 package params
 
 type TestParams struct {
-	TestValue int
+	TestValue float64
 }

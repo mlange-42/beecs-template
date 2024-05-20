@@ -7,18 +7,18 @@ import (
 	"github.com/mlange-42/beecs-template/params"
 )
 
-type PrintSystem struct {
+type TestSystem struct {
 	params *params.TestParams
 }
 
-func (s *PrintSystem) Initialize(w *ecs.World) {
+func (s *TestSystem) Initialize(w *ecs.World) {
 	s.params = ecs.GetResource[params.TestParams](w)
 }
 
-func (s *PrintSystem) Update(w *ecs.World) {
+func (s *TestSystem) Update(w *ecs.World) {
 	s.params.TestValue++
 }
 
-func (s *PrintSystem) Finalize(w *ecs.World) {
+func (s *TestSystem) Finalize(w *ecs.World) {
 	fmt.Println(s.params.TestValue)
 }

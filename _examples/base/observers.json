@@ -1,1 +1,9 @@
-{}
+{
+    "Parameters": "out/Parameters.csv",
+    "Tables": [
+        {
+            "Observer": "obs.TestObserver",
+            "File": "out/TestObserver.csv"
+        }
+    ]
+}
