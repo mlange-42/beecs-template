@@ -16,8 +16,9 @@ func (s *PrintSystem) Initialize(w *ecs.World) {
 }
 
 func (s *PrintSystem) Update(w *ecs.World) {
-	fmt.Println(s.params.TestValue)
 	s.params.TestValue++
 }
 
-func (s *PrintSystem) Finalize(w *ecs.World) {}
+func (s *PrintSystem) Finalize(w *ecs.World) {
+	fmt.Println(s.params.TestValue)
+}
