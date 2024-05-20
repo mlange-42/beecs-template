@@ -22,5 +22,5 @@
 	"sys.CountPopulation",
 	"sys.FixedTermination",
 
-	"sys.PrintSystem"
+	"sys.TestSystem"
 ]
