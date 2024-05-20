@@ -7,7 +7,7 @@ A template repository showing how to extend the [beecs](https://github.com/mlang
 Try the example:
 
 ```
-go run . -d _examples/base --systems systems.json
+go run . -d _examples/base --observers --systems
 ```
 
 ## Getting started

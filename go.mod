@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/mlange-42/arche v0.12.1-0.20240516105122-6799138aa690
-	github.com/mlange-42/beecs-cli v0.1.1-0.20240520194042-9ffa8d2be603
+	github.com/mlange-42/beecs-cli v0.1.1-0.20240520211316-9505e7a27a62
 )
 
 require (
