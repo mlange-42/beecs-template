@@ -3,8 +3,8 @@ module github.com/mlange-42/beecs-template
 go 1.22.0
 
 require (
-	github.com/mlange-42/arche v0.12.1-0.20240516105122-6799138aa690
-	github.com/mlange-42/beecs-cli v0.1.1-0.20240520211316-9505e7a27a62
+	github.com/mlange-42/arche v0.13.0
+	github.com/mlange-42/beecs-cli v0.1.1-0.20240521191026-ceda6f339dc1
 )
 
 require (
@@ -27,7 +27,7 @@ require (
 	github.com/mazznoer/csscolorparser v0.1.2 // indirect
 	github.com/mlange-42/arche-model v0.8.1 // indirect
 	github.com/mlange-42/arche-pixel v0.9.0 // indirect
-	github.com/mlange-42/beecs v0.1.1-0.20240520193329-cfbd62899b75 // indirect
+	github.com/mlange-42/beecs v0.1.1-0.20240521181850-c5100abe8a0f // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/cobra v1.8.0 // indirect
