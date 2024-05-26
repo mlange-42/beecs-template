@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/mlange-42/arche v0.13.0
-	github.com/mlange-42/beecs-cli v0.1.1-0.20240521191026-ceda6f339dc1
+	github.com/mlange-42/beecs-cli v0.1.1-0.20240526002746-a91fdb49ea20
 )
 
 require (
@@ -25,9 +25,9 @@ require (
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mazznoer/colorgrad v0.9.1 // indirect
 	github.com/mazznoer/csscolorparser v0.1.2 // indirect
-	github.com/mlange-42/arche-model v0.8.1 // indirect
-	github.com/mlange-42/arche-pixel v0.9.0 // indirect
-	github.com/mlange-42/beecs v0.1.1-0.20240521181850-c5100abe8a0f // indirect
+	github.com/mlange-42/arche-model v0.8.2-0.20240523143440-11595cc41e11 // indirect
+	github.com/mlange-42/arche-pixel v0.9.1-0.20240523102310-958292ff764d // indirect
+	github.com/mlange-42/beecs v0.1.1-0.20240525234846-9103ab3c201b // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/cobra v1.8.0 // indirect
